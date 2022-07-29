@@ -1,4 +1,4 @@
--- Src By START#5331|By x2tawan#0001
+-- Src By Hmm_Man##9136
 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
@@ -7,6 +7,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 26, 255)
 ImageButton.BorderSizePixel = 1
 ImageButton.Position = UDim2.new(0.1208337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
