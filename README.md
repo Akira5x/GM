@@ -7,7 +7,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ImageButton.Parent = ScreenGui
-ImageButton.BackgroundColor3 = Color3.fromRGB(0, 26, 255)
+ImageButton.BackgroundColor3 = Color3.fromRGB(245, 208, 18)
 ImageButton.BorderSizePixel = 1
 ImageButton.Position = UDim2.new(0.1208337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
